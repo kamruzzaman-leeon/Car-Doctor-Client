@@ -1,16 +1,27 @@
 import { Link } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg'
 
+import { AuthContext } from '../../Providers/AuthProvider';
+import { useContext } from 'react';
+
 const Login = () => {
+  const {signIn} = useContext(AuthContext);
   const handleLogin = e => {
-    e.preventDefault()
+    e.preventDefault();
     const form = e.target;
-    const data = {
-      email: form.email.value,
-      password: form.password.value
+    const email= form.email.value;
+    const password= form.password.value;
+    console.log(email,password)
+    // form.reset();
+    signIn(email,password)
+    .then(res=>{
+      const user = res.user;
+      console.log(user)
+    })
+    .catch(error=>console.log(error))
     }
-    form.reset()
-  }
+   
+  
   return (
     <div className="hero h-min py-16">
       <div className="hero-content flex-col lg:flex-row">
