@@ -14,7 +14,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline outline-white text-white'>Latest Project</button>
 
             </div>
@@ -33,7 +33,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline btn-primary'>Latest Project</button>
 
             </div>
@@ -51,7 +51,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline btn-primary'>Latest Project</button>
 
             </div>
@@ -69,7 +69,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline btn-primary'>Latest Project</button>
 
             </div>
@@ -87,7 +87,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline btn-primary'>Latest Project</button>
 
             </div>
@@ -105,7 +105,7 @@ const Banner = () => {
             <h2 className='text-6xl font-bold'>Affordable Price For Car Servicing</h2>
             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
             <div>
-              <button className="btn btn-primary mr-5">Discover More</button>
+              <button className="btn btn-primary mr-5 mb-5">Discover More</button>
               <button className='btn btn-outline btn-primary'>Latest Project</button>
 
             </div>
